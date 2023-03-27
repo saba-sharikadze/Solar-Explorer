@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANETS</title>
+    <link rel="icon" type="image/png" href="./images/Tab-logo.svg"/>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio&family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h3>THE PLANETS</h3>
+        <div class="navigation">
+            <nav>
+                <ul id="nav" class="navigation-list">
+                    <li class="list-item">
+                        <a class="nav-item" href="./index.html">MERCURY</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-item" href="./venus.html">VENUS</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-item" href="./earth.html">EARTH</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-item" href="./mars.html">MARS</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-item" href="./jupiter.html">JUPITER</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-item" href="./saturn.html">SATURN</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-item" href="./uranus.html">URANUS</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-item" href="./neptune.html">NEPTUNE</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="bar" class="burger-bar">
+            <img src="./images/hamburger.svg" alt="">
+        </div>
+    </header>
+    <section class="landing">
+        <div class="landing-image">
+            <img id="planetimg" class="main-img" src="./images/planet-mercury.svg" alt="Mercury Photo">
+            <img class="surface" src="" alt="" id="surface-img">
+
+        </div>
+        <div class="landing-texts">
+            <div class="landing-description">
+                <h1>MERCURY</h1>
+                <p class="landing-p">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.</p>
+            </div>
+            <div class="landing-buttons">
+                <button id="overview" value="mercury" class="landing-btn"> <span class="btn-number">1</span> OVERVIEW</button>
+                <button id="internal" value="mercury" class="landing-btn"> <span class="btn-number">2</span> Internal Structure</button>
+                <button id="surface" value="mercury" class="landing-btn"> <span class="btn-number">3</span> Surface Geology</button>
+            </div>
+        </div>
+    </section> 
+    <section class="stats-div">
+            <div class="stats-block">
+                <h5>ROTATION TIME</h5>
+                <h2>58.6 DAYS</h2>
+            </div>
+            <div class="stats-block">
+                <h5>REVOLUTION TIME</h5>
+                <h2>87.97 days</h2>
+            </div>
+            <div class="stats-block">
+                <h5>RADIUS</h5>
+                <h2>2,439.7 KM</h2>
+            </div>
+            <div class="stats-block">
+                <h5>AVERAGE TEMP</h5>
+                <h2>430°C</h2>
+            </div>
+    </section>
+    <footer>
+        <form class="footer-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+      
+          <label for="subscribe">Subscribe</label>
+          <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br>
+      
+          <input class="submit-footer" type="submit" value="Submit">
+        </form>
+      </footer>
+      
+
+      <script src="script.js"></script>
+</body>
+</html>
